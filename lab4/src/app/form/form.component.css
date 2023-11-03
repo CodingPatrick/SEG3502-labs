@@ -1,0 +1,19 @@
+table {
+    margin: 35px;
+    border:1px solid cornflowerblue;
+    width: 305px;
+}
+
+input {
+    margin-left: 10px;
+}
+
+button {
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.err {
+    color: red;
+    margin-left: 10px;
+}

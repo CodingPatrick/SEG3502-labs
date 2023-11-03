@@ -1,0 +1,31 @@
+<table>
+    <tr>
+        Prénom: <br>
+        <input #prenom/> 
+        <div id="invalid-feedback-prenom" class="err"></div>
+        <br>
+
+        Nom: <br>
+        <input #nom id="nom"/> 
+        <div id="invalid-feedback-nom" class="err"></div>
+        <br>
+
+        Téléphone: <br>
+        <input #telephone/> 
+        <div id="invalid-feedback-telephone" class="err"></div>
+        <br>
+
+        Email: <br>
+        <input #email/> 
+        <div id="invalid-feedback-email" class="err"></div>
+        <br>
+
+        <button (click)="check(prenom.value, nom.value, telephone.value, email.value)">Ajouter</button>
+    </tr>
+</table>
+<table>
+    <h3>Données d'utilisateur</h3>
+    <tr *ngFor=" let item of list">
+        <app-table [list]="item" ></app-table>
+    </tr>
+</table>
