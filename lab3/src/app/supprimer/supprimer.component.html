@@ -1,0 +1,12 @@
+<table>
+    <tr>
+        <input #ajout/>
+        <button (click)="ajouter(ajout.value)">Ajouter</button>
+    </tr>
+</table>
+<table>
+    <tr *ngFor=" let item of items">
+        <app-voir-liste [item]="item" [supprimer]="supprimer"></app-voir-liste>
+    </tr>
+</table>
+
