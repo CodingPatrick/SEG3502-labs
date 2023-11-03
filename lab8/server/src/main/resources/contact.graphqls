@@ -1,0 +1,15 @@
+type Query {
+    contacts: [Contact]
+}
+
+type Contact {
+    contactId: ID!
+    prenom: String!
+    nom: String!
+    telephone: String!
+    email: String!
+}
+
+type Mutation {
+    newContact(prenom: String!, nom: String!, telephone: String!, email: String!) : Contact!
+}

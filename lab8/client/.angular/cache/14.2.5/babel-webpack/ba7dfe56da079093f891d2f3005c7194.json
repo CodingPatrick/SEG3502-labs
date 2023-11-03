@@ -1,0 +1,1 @@
+{"ast":null,"code":"export * from \"./batchLink.js\";","map":{"version":3,"names":[],"sources":["/Users/patrickloranger/Documents/uOttawa SEG/6. Fall 2022/SEG 3502/lab8/client/node_modules/@apollo/client/link/batch/index.js"],"sourcesContent":["export * from \"./batchLink.js\";\n"],"mappings":"AAAA,cAAc,gBAAd"},"metadata":{},"sourceType":"module"}

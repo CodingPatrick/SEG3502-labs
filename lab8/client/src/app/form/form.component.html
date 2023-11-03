@@ -1,0 +1,41 @@
+<table>
+    <tr>
+        Prénom: <br>
+        <input #prenom/> 
+        <div id="invalid-feedback-prenom" class="err"></div>
+        <br>
+
+        Nom: <br>
+        <input #nom id="nom"/> 
+        <div id="invalid-feedback-nom" class="err"></div>
+        <br>
+
+        Téléphone: <br>
+        <input #telephone/> 
+        <div id="invalid-feedback-telephone" class="err"></div>
+        <br>
+
+        Email: <br>
+        <input #email/> 
+        <div id="invalid-feedback-email" class="err"></div>
+        <br>
+
+        <button (click)="check(prenom.value, nom.value, telephone.value, email.value)">Ajouter</button>
+    </tr>
+</table>
+
+<table>
+    <h3>MongoDB:</h3>
+    <tr>
+        <td><strong>Prénom</strong></td>
+        <td><strong>Nom</strong></td>
+        <td><strong>Téléphone</strong></td>
+        <td><strong>Email</strong></td>
+    </tr>
+    <tr class="text" *ngFor="let item of data">
+        <td> {{ item.prenom }} </td>
+        <td> {{ item.nom }} </td>
+        <td> {{ item.telephone }} </td>
+        <td> {{ item.email }} </td>
+    </tr>
+</table>
