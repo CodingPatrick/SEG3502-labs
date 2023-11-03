@@ -1,0 +1,47 @@
+h1 {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+  }
+
+input {
+    border-style: single;
+    width: 150px;
+}
+
+button {
+    background-color: lightgrey;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 8px;
+    border-color: white;
+    margin-right: 19px;
+    margin-left: 20px;
+}
+  
+label {
+    font-size: 20px;
+}
+
+body {
+    background-color: white;
+    margin-left: 70px;
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table {
+  border: 1px solid;
+}
+
+#resultat {
+  margin-left: 103px;
+}
+
+#premier {
+  margin-left: 25px;
+}
+
+#deuxieme {
+  margin-left: 30px;
+}
