@@ -1,0 +1,15 @@
+input {
+    border-style: single;
+    width: 150px;
+  }
+  button {
+    background-color: lightgrey;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 8px;
+    border-color: white;
+  }
+  
+  label {
+    font-size: 20px;
+  }

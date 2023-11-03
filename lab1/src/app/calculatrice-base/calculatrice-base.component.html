@@ -1,0 +1,39 @@
+<table>
+    <tr>
+      <td>
+        <label for="premier">Premier nombre:</label>
+        <input name="premier" id="premierInput" value="{{premierValue | number: '1.0-2'}}" #premier>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="deuxieme">Second nombre:</label>
+        <input name="deuxieme" id="deuxiemeInput" value="{{deuxiemeValue | number: '1.0-2'}}" #deuxieme>
+      </td>
+    </tr>
+    <tr>
+        <td>
+          <label for="resultat">Résultat:</label>
+          <input name="resultat" id="resultatInput" value="{{resultatValue | number: '1.0-2'}}" #resultat>
+        </td>
+    </tr>
+    <table id="functions">
+        <tr>
+            <td>
+              <button (click)="addition(premier.value, deuxieme.value)">+</button>
+            </td>
+            <td>
+              <button (click)="soustraction(premier.value, deuxieme.value)">-</button>
+            </td>
+            <td>
+              <button (click)="multiplication(premier.value, deuxieme.value)">*</button>
+            </td>
+            <td>
+              <button (click)="division(premier.value, deuxieme.value)">/</button>
+            </td>
+            <td>
+                <button (click)="clear(premier.value, deuxieme.value)">C</button>
+            </td>
+        </tr>
+    </table>
+</table>
